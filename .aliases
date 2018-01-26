@@ -48,3 +48,6 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes
+alias rm='rm -I'
