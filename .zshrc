@@ -8,4 +8,4 @@ HISTFILE=~/.zsh_history
 
 setopt prompt_subst
 autoload colors; colors;
-set_color%} %{$fg[green]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%} %{$fg[cyan]%}%1d%{$reset_color%} » '
+PROMPT='%{$fg[yellow]%}[%*]%{$reset_color%} %{$fg[green]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%} %{$fg[cyan]%}%1d%{$reset_color%} » '
