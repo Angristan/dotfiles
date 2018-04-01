@@ -77,10 +77,6 @@
             set suffix '>'
     end
 
-    if not test $last_status -eq 0
-        set_color $fish_color_error
-    end
-
     echo -n -s "$USER" @ (prompt_hostname) ' ' (set_color $color_cwd) (prompt_pwd) (set_color normal) "$suffix"
 
     printf '%s ' (__fish_vcs_prompt)
