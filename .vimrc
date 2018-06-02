@@ -18,8 +18,3 @@ set showmatch           " highlight matching [{()}]
 
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
-" turn off search highlight^
-nnoremap <leader><space> :nohlsearch<CR> 
-
-let mapleader=","       " leader is comma
-inoremap jk <esc>       " jk is escape
