@@ -18,3 +18,6 @@ set showmatch           " highlight matching [{()}]
 
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
+
+set list                " displays whitespace
+set listchars=tab:>·,trail:~,extends:>,precedes:<,space:
