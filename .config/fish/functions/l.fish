@@ -1,3 +1,3 @@
-function l --description 'alias l ll -a'
+function l
     ll -a $argv;
 end
