@@ -8,8 +8,6 @@ function brewup
   brew upgrade
   echo "▶️  Running brew cask upgrade"\n
   brew cask upgrade
-  echo "▶️  Running brew prune"\n
-  brew prune
   echo "▶️  Running brew cleanup"\n
   brew cleanup
   echo "▶️  Running brew doctor"\n
