@@ -58,7 +58,7 @@ ZSH_THEME="af-magic"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions ansible aws docker docker-compose gem history npm pip pyenv python rand-quote sudo terraform vagrant vscode web-search yarn)
+plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions ansible aws docker docker-compose gem history npm pip pyenv python rand-quote sudo terraform vagrant vscode web-search yarn rbenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -72,11 +72,8 @@ export EDITOR=vim
 source ~/.aliases
 source ~/.ldap_credentials
 
-# Ruby
-export RUBY_CONFIGURE_OPTS=--with-openssl-dir=$(brew --prefix openssl@1.1)
-eval "$(rbenv init -)"
-
 #Golang
 export GOPATH=~/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+
