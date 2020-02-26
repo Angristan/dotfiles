@@ -5,7 +5,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Detect which `ls` flavor is in use
@@ -17,11 +16,8 @@ else # macOS `ls`
 	export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 fi
 
-# List all files colorized in long format
-alias l="ls -lF ${colorflag}"
-
 # List all files colorized in long format, including dot files
-alias la="ls -laF ${colorflag}"
+alias l="ls -laF ${colorflag}"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
@@ -49,5 +45,6 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-# Prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes
-alias rm='rm -I'
+alias cat="bat -p"
+
+alias brewup="brew update && brew upgrade && brew cask upgrade && brew cleanup && brew doctor && brew cask doctor"

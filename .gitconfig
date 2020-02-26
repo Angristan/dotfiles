@@ -1,0 +1,5 @@
+[user]
+	name = Stanislas Lange
+	email = angristan@pm.me
+[core]
+	excludesfile = ~/.gitignore
