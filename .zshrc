@@ -4,7 +4,7 @@
 export ZSH="/Users/stanislas/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="af-magic"
+ZSH_THEME="awesomepanda"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -76,4 +76,6 @@ source ~/.ldap_credentials
 export GOPATH=~/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+
+export GPG_TTY=$(tty)
 
