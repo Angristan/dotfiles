@@ -68,6 +68,7 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 export EDITOR=vim
+export GPG_TTY=$(tty)
 
 source ~/.aliases
 source ~/.ldap_credentials
@@ -77,5 +78,4 @@ export GOPATH=~/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
-export GPG_TTY=$(tty)
 

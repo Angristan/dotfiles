@@ -48,3 +48,5 @@ alias path='echo -e ${PATH//:/\\n}'
 alias cat="bat -p"
 
 alias brewup="brew update && brew upgrade && brew cask upgrade && brew cleanup && brew doctor && brew cask doctor"
+
+alias mirror='/Applications/MirrorDisplays.app/Contents/MacOS/mirror'
