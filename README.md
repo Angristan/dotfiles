@@ -1,9 +1,3 @@
 # dotfiles
 
-Personal dotfiles
-
-## Setup
-
-```sh
-bash setup.sh
-```
+Personal dotfiles, managed by [chezmoi](https://github.com/twpayne/chezmoi)
