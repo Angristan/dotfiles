@@ -73,9 +73,10 @@ export GPG_TTY=$(tty)
 source ~/.aliases
 source ~/.ldap_credentials
 
-#Golang
+# Golang
 export GOPATH=~/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
-
+# Java
+export JAVA_HOME=`/usr/libexec/java_home`
