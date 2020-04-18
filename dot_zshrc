@@ -3,6 +3,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/stanislas/.oh-my-zsh"
 
+# Prompt
+export TYPEWRITTEN_PROMPT_LAYOUT=singleline_verbose
+
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="typewritten"
 
@@ -87,5 +90,3 @@ ssh-add -K 2>/dev/null;
 # Homebrew stuff
 export PATH="/usr/local/sbin:$PATH"
 
-# Prompt
-export TYPEWRITTEN_PROMPT_LAYOUT=singleline_verbose
