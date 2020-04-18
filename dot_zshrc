@@ -90,3 +90,5 @@ ssh-add -K 2>/dev/null;
 # Homebrew stuff
 export PATH="/usr/local/sbin:$PATH"
 
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
