@@ -92,3 +92,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# https://unix.stackexchange.com/a/302710/270394 
+export PROMPT_EOL_MARK=''
