@@ -97,4 +97,4 @@ export PATH="/usr/local/sbin:$PATH"
 export PROMPT_EOL_MARK=''
 
 # Scaleway CLI autocomplete initialization.
-eval "$(scw autocomplete script shell=zsh)
+eval "$(scw autocomplete script shell=zsh)"
