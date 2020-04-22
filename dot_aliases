@@ -17,7 +17,8 @@ else # macOS `ls`
 fi
 
 alias ls="exa -gF --group-directories-first --git"
-alias l="ls -l"
+alias ll="ls -l"
+alias l="ll -a"
 
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
