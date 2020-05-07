@@ -85,7 +85,7 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 export JAVA_HOME=`/usr/libexec/java_home`
 
 # macOS SSH keychain | https://apple.stackexchange.com/a/254714/315354
-ssh-add -K 2>/dev/null;
+#ssh-add -K 2>/dev/null;
 
 # Homebrew stuff
 export PATH="/usr/local/sbin:$PATH"
@@ -97,7 +97,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PROMPT_EOL_MARK=''
 
 # Scaleway CLI autocomplete initialization.
-eval "$(scw autocomplete script shell=zsh)"
+#eval "$(scw autocomplete script shell=zsh)"
 
 # heroku autocomplete setup
-HEROKU_AC_ZSH_SETUP_PATH=/Users/stanislas/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+#HEROKU_AC_ZSH_SETUP_PATH=/Users/stanislas/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
