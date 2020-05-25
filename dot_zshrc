@@ -61,7 +61,7 @@ ZSH_THEME="typewritten"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize pip python brew osx ansible docker docker-compose gem history npm pip pyenv python rand-quote sudo terraform vagrant vscode web-search yarn rbenv mvn)
+plugins=(git colored-man-pages colorize pip python brew osx ansible docker docker-compose gem history npm pip pyenv python rand-quote sudo terraform vagrant vscode yarn rbenv mvn)
 
 source $ZSH/oh-my-zsh.sh
 
