@@ -13,3 +13,5 @@
     diffFilter = delta --color-only
 [diff]
     ignoreSubmodules = dirty
+[pull]
+    rebase = true
