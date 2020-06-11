@@ -7,7 +7,8 @@ export ZSH="/Users/stanislas/.oh-my-zsh"
 export TYPEWRITTEN_PROMPT_LAYOUT=singleline_verbose
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="typewritten"
+#ZSH_THEME="typewritten"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
