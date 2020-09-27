@@ -17,5 +17,5 @@
     rebase = true
 [commit]
     gpgsign = true
-    [url "git@gitlab.infra.online.net:"]
+[url "git@gitlab.infra.online.net:"]
     insteadOf = https://gitlab.infra.online.net/
