@@ -16,4 +16,6 @@
 [pull]
     rebase = true
 [commit]
-	gpgsign = true
+    gpgsign = true
+    [url "git@gitlab.infra.online.net:"]
+    insteadOf = https://gitlab.infra.online.net/
