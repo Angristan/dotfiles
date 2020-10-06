@@ -1,3 +1,10 @@
 README.md
 LICENSE
 legacy
+
+{{ if ne .chezmoi.hostname "yeji" }}
+.zshrc_yeji
+{{ end }}
+{{ if ne .chezmoi.hostname "devenv" }}
+.zshrc_devenv
+{{ end }}

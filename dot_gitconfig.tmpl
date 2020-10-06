@@ -1,16 +1,24 @@
 [user]
     name = Stanislas Lange
+{{ if eq .chezmoi.hostname "yeji" }}
     email = stanislas.lange@pm.me
     signingkey = 710D9597C7EAD8CF
+{{ end }}
+{{ if eq .chezmoi.hostname "devenv" }}
+    email = slange@scaleway.com
+    signingkey = 135BF320A4F73940
+{{ end }}
 [alias]
     plog = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
     vfc = verify-commit
     st = status
 [core]
     excludesfile = ~/.gitignore
+{{ if eq .chezmoi.hostname "yeji" }}
     pager = delta --plus-color="#012800" --minus-color="#340001" --theme='Monokai Extended'
 [interactive]
     diffFilter = delta --color-only
+{{ end }}
 [diff]
     ignoreSubmodules = dirty
 [pull]

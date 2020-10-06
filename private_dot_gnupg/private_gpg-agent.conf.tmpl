@@ -1,4 +1,5 @@
+{{ if eq .chezmoi.hostname "yeji" }}
 default-cache-ttl 600
 max-cache-ttl 7200
 pinentry-program /usr/local/MacGPG2/libexec/pinentry-mac.app/Contents/MacOS/pinentry-mac
-
+{{ end }}
