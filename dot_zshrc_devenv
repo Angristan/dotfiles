@@ -5,7 +5,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git colored-man-pages colorize pip python ansible docker docker-compose gem history npm pip pyenv python sudo vscode yarn rbenv ssh-agent zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.aliases
 source ~/.secret
 
 export LC_ALL=en_US.UTF-8
@@ -21,5 +20,8 @@ export VAULT_TOKEN=$(cat ~/.vault-token)
 
 export N_PREFIX="$HOME/n"
 [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin" # Added by n-install (see http://git.io/n-install-repo).
+
+export PATH="/root/bin:$PATH"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
