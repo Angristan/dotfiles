@@ -1,6 +1,6 @@
 export ZSH="/root/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="afowler"
 
 plugins=(git colored-man-pages colorize pip python ansible docker docker-compose gem history npm pip pyenv python sudo vscode yarn rbenv ssh-agent zsh-autosuggestions)
 
