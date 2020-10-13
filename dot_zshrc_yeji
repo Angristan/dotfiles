@@ -79,6 +79,7 @@ source ~/.ldap_credentials
 # Golang
 export GOPATH=~/go
 export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=~/go/bin
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
 # Java
