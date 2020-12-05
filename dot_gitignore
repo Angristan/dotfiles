@@ -1,3 +1,4 @@
 .vscode
 .vagrant
 .idea
+.DS_store
