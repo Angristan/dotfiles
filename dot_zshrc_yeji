@@ -105,3 +105,6 @@ export PROMPT_EOL_MARK=''
 
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zsh-autosuggestions.rb
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /Users/stanislas/go/bin/bitcomplete bit
