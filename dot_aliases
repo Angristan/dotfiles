@@ -47,3 +47,6 @@ alias brewup="brew update && brew upgrade && brew upgrade --cask && brew cleanup
 alias mirror='/Applications/MirrorDisplays.app/Contents/MacOS/mirror'
 
 alias aws="PAGER= aws"
+
+alias dev="ssh devenv"
+alias pxe="ssh par1dc2-infra-prd-cl1pxe01"
