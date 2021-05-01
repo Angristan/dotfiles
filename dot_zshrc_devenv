@@ -11,13 +11,6 @@ export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 export EDITOR=vim
 
-export SRC_DIR="/root/storage"
-export ANSIBLE_COLLECTIONS_PATHS="/root/storage/common/deploy/collections"
-export ANSIBLE_HOST_KEY_CHECKING=False
-export ANSIBLE_LIBRARY="/root/storage/common/deploy/library"
-export ANSIBLE_LOOKUP_PLUGINS="/root/storage/common/deploy/lookup"
-export VAULT_TOKEN=$(cat ~/.vault-token)
-
 export N_PREFIX="$HOME/n"
 [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin" # Added by n-install (see http://git.io/n-install-repo).
 
