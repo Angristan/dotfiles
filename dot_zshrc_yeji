@@ -83,7 +83,7 @@ export GOBIN=~/go/bin
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
 # Java
-export JAVA_HOME=`/usr/libexec/java_home`
+#export JAVA_HOME=`/usr/libexec/java_home`
 
 # macOS SSH keychain | https://apple.stackexchange.com/a/254714/315354
 #ssh-add -K 2>/dev/null;
