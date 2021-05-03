@@ -48,4 +48,5 @@ alias mirror='/Applications/MirrorDisplays.app/Contents/MacOS/mirror'
 
 alias aws="PAGER= aws"
 
-alias dev="ssh devenv"
+alias dev2="ssh devenv"
+alias dev='ssh -t devenv "tmux -CC attach || tmux -CC"'
