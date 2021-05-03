@@ -11,3 +11,6 @@ export PATH="/root/bin:/root/go/bin:$PATH"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
