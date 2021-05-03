@@ -113,3 +113,6 @@ complete -o nospace -C /usr/local/bin/mc mc
 
 export SDKMAN_DIR="/Users/stanislas/.sdkman"
 [[ -s "/Users/stanislas/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/stanislas/.sdkman/bin/sdkman-init.sh"
+
+export TERM=xterm-256color
+
