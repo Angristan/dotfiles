@@ -50,3 +50,5 @@ alias aws="PAGER= aws"
 
 alias dev2="ssh devenv"
 alias dev='ssh -t devenv "tmux -CC attach || tmux -CC"'
+
+alias gst="git status"
