@@ -1,6 +1,3 @@
-# zsh configuration
-
-# Path to your oh-my-zsh installation.
 export ZSH="/Users/stanislas/.oh-my-zsh"
 
 # Prompt
@@ -57,24 +54,7 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize pip python brew osx ansible docker docker-compose gem history npm pip pyenv python rand-quote sudo terraform vagrant vscode yarn rbenv mvn)
-
-source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-
-export EDITOR=vim
-
-source ~/.aliases
-source ~/.private_vars
+source ~/.zshrc_shared
 
 # Golang
 export GOPATH=~/go
@@ -91,10 +71,7 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 # Homebrew stuff
 export PATH="/usr/local/sbin:$PATH"
 
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# https://unix.stackexchange.com/a/302710/270394 
+# https://unix.stackexchange.com/a/302710/270394
 export PROMPT_EOL_MARK=''
 
 # Scaleway CLI autocomplete initialization.
@@ -115,4 +92,3 @@ export SDKMAN_DIR="/Users/stanislas/.sdkman"
 [[ -s "/Users/stanislas/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/stanislas/.sdkman/bin/sdkman-init.sh"
 
 export TERM=xterm-256color
-

@@ -1,0 +1,22 @@
+source $ZSH/oh-my-zsh.sh
+
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git colored-man-pages colorize pip python brew osx ansible docker docker-compose gem history npm pip pyenv python rand-quote sudo terraform vagrant vscode yarn rbenv mvn)
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+export EDITOR=vim
+
+source ~/.aliases
+source ~/.zshrc_secret
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export TERM=xterm-256color

@@ -2,24 +2,12 @@ export ZSH="/root/.oh-my-zsh"
 
 ZSH_THEME="afowler"
 
-plugins=(git colored-man-pages colorize pip python ansible docker docker-compose gem history npm pip pyenv python sudo vscode yarn rbenv ssh-agent zsh-autosuggestions)
-
-source $ZSH/oh-my-zsh.sh
-source ~/.secret
-
-export LC_ALL=en_US.UTF-8
-export LC_CTYPE=en_US.UTF-8
-export EDITOR=vim
+source ~/.zshrc_shared
 
 export N_PREFIX="$HOME/n"
 [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin" # Added by n-install (see http://git.io/n-install-repo).
 
 export PATH="/root/bin:/root/go/bin:$PATH"
 
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-
-export TERM=xterm-256color
