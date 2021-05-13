@@ -14,3 +14,5 @@ eval "$(rbenv init -)"
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+export SDKMAN_DIR="/root/.sdkman"
+[[ -s "/root/.sdkman/bin/sdkman-init.sh" ]] && source "/root/.sdkman/bin/sdkman-init.sh"
