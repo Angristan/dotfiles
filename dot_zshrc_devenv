@@ -12,3 +12,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 . $HOME/.asdf/asdf.sh
 
 export PATH="$HOME/bin:$PATH"
+
+export FLYCTL_INSTALL="/root/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
